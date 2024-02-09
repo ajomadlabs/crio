@@ -11,7 +11,7 @@ class App extends React.Component {
         <center>Welcome To Crio Mern One</center>
         {/* <SessionOneCounter /> */}
         {/* <SessionTwoCounter /> */}
-        {/* <Forms /> */}
+        <Forms />
         {/* <LifeCycle /> */}
       </div>
     );
