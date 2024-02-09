@@ -4,6 +4,7 @@ import SessionTwoCounter from './SessionTwo/Counter';
 import Forms from './SessionThree/Forms';
 import LifeCycle from './SessionThree/LifeCycle';
 import FunctionalComponent from './SessionThree/FunctionalComponent';
+import ApiComponent from './SessionThree/ApiComponent';
 
 class App extends React.Component {
   constructor(props) {
@@ -29,7 +30,8 @@ class App extends React.Component {
         >
           Show/Hide LifeCylce Component
         </button> */}
-        <FunctionalComponent />
+        {/* <FunctionalComponent /> */}
+        <ApiComponent />
       </div>
     );
   }
