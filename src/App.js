@@ -31,7 +31,7 @@ class App extends React.Component {
           Show/Hide LifeCylce Component
         </button> */}
         {/* <FunctionalComponent /> */}
-        <ApiComponent />
+        {/* <ApiComponent /> */}
       </div>
     );
   }
