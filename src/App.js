@@ -5,6 +5,7 @@ import Forms from './SessionThree/Forms';
 import LifeCycle from './SessionThree/LifeCycle';
 import FunctionalComponent from './SessionThree/FunctionalComponent';
 import ApiComponent from './SessionThree/ApiComponent';
+import MyFunctionalComponent from './SessionFour/FC';
 
 class App extends React.Component {
   constructor(props) {
@@ -32,6 +33,7 @@ class App extends React.Component {
         </button> */}
         {/* <FunctionalComponent /> */}
         {/* <ApiComponent /> */}
+        <MyFunctionalComponent t2={'Hello World T2'} name="Ajo" />
       </div>
     );
   }
