@@ -1,6 +1,6 @@
 ## Agenda - Session Five
 
-- List Rendering
-- useEffect
+- List Rendering - Done
+- useEffect - Done
 - router introduction
 - qkart introduction

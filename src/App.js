@@ -6,6 +6,8 @@ import LifeCycle from './SessionThree/LifeCycle';
 import FunctionalComponent from './SessionThree/FunctionalComponent';
 import ApiComponent from './SessionThree/ApiComponent';
 import MyFunctionalComponent from './SessionFour/FC';
+import FCUseEffect from './SessionFive/FCUseEffect';
+import FCRendering from './SessionFive/FCListRendering';
 
 class App extends React.Component {
   constructor(props) {
@@ -33,7 +35,10 @@ class App extends React.Component {
         </button> */}
         {/* <FunctionalComponent /> */}
         {/* <ApiComponent /> */}
-        <MyFunctionalComponent t2={'Hello World T2'} name="Ajo" />
+        {/* <MyFunctionalComponent t2={'Hello World T2'} name="Ajo" /> */}
+        {/* <FCUseEffect /> */}
+        {/* <FCRendering /> */}
+        <FCUseEffect />
       </div>
     );
   }
