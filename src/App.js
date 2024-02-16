@@ -8,6 +8,7 @@ import ApiComponent from './SessionThree/ApiComponent';
 import MyFunctionalComponent from './SessionFour/FC';
 import FCUseEffect from './SessionFive/FCUseEffect';
 import FCRendering from './SessionFive/FCListRendering';
+import Home from './SessionSix/Home';
 
 class App extends React.Component {
   constructor(props) {
@@ -19,7 +20,6 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <center>Welcome To Crio Mern One</center>
         {/* <SessionOneCounter /> */}
         {/* <SessionTwoCounter /> */}
         {/* <Forms /> */}
@@ -38,7 +38,8 @@ class App extends React.Component {
         {/* <MyFunctionalComponent t2={'Hello World T2'} name="Ajo" /> */}
         {/* <FCUseEffect /> */}
         {/* <FCRendering /> */}
-        <FCUseEffect />
+        {/* <FCUseEffect /> */}
+        <Home />
       </div>
     );
   }
