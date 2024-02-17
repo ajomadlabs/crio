@@ -9,6 +9,8 @@ import MyFunctionalComponent from './SessionFour/FC';
 import FCUseEffect from './SessionFive/FCUseEffect';
 import FCRendering from './SessionFive/FCListRendering';
 import Home from './SessionSix/Home';
+import Albums from './SessionSix/Albums';
+import Photos from './SessionSix/Photos';
 
 class App extends React.Component {
   constructor(props) {

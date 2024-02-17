@@ -8,7 +8,7 @@ const FCUseEffect = () => {
     return () => {
       console.log('Hello, World')
     }
-  }, [count2]);
+  }, []);
   return <p>Hello, World</p>;
 };
 
