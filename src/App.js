@@ -45,8 +45,8 @@ class App extends React.Component {
         {/* <FCRendering /> */}
         {/* <FCUseEffect /> */}
         {/* <Home /> */}
-        <FCRef />
-        {/* <FCDebouncing /> */}
+        {/* <FCRef /> */}
+        <FCDebouncing />
         {/* <FCMaterialUi /> */}
       </div>
     );
