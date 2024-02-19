@@ -11,6 +11,9 @@ import FCRendering from './SessionFive/FCListRendering';
 import Home from './SessionSix/Home';
 import Albums from './SessionSix/Albums';
 import Photos from './SessionSix/Photos';
+import FCRef from './SessionSeven/FCRef';
+import FCDebouncing from './SessionSeven/FCDebouncing';
+import FCMaterialUi from './SessionSeven/FCMaterialUI';
 
 class App extends React.Component {
   constructor(props) {
@@ -41,7 +44,10 @@ class App extends React.Component {
         {/* <FCUseEffect /> */}
         {/* <FCRendering /> */}
         {/* <FCUseEffect /> */}
-        <Home />
+        {/* <Home /> */}
+        <FCRef />
+        {/* <FCDebouncing /> */}
+        {/* <FCMaterialUi /> */}
       </div>
     );
   }
