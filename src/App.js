@@ -14,6 +14,8 @@ import Photos from './SessionSix/Photos';
 import FCRef from './SessionSeven/FCRef';
 import FCDebouncing from './SessionSeven/FCDebouncing';
 import FCMaterialUi from './SessionSeven/FCMaterialUI';
+import FCUseCallback from './SessionEight/FCUseCallback';
+import FCUseMemo from './SessionEight/FCUseMemo';
 
 class App extends React.Component {
   constructor(props) {
@@ -47,7 +49,9 @@ class App extends React.Component {
         {/* <Home /> */}
         {/* <FCRef /> */}
         {/* <FCDebouncing /> */}
-        <FCMaterialUi />
+        {/* <FCMaterialUi /> */}
+        <FCUseCallback />
+        {/* <FCUseMemo /> */}
       </div>
     );
   }
