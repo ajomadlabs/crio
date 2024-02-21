@@ -50,8 +50,8 @@ class App extends React.Component {
         {/* <FCRef /> */}
         {/* <FCDebouncing /> */}
         {/* <FCMaterialUi /> */}
-        <FCUseCallback />
-        {/* <FCUseMemo /> */}
+        {/* <FCUseCallback /> */}
+        <FCUseMemo />
       </div>
     );
   }

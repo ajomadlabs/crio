@@ -15,7 +15,7 @@ const ParentComponent = () => {
   }, []);
   return (
     <div>
-      <p>Count: {count}</p>
+      <p>Count Break: {count}</p>
       <ChildComponent increment={handleIncrement} />
     </div>
   );
