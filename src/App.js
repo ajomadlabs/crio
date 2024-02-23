@@ -16,6 +16,8 @@ import FCDebouncing from './SessionSeven/FCDebouncing';
 import FCMaterialUi from './SessionSeven/FCMaterialUI';
 import FCUseCallback from './SessionEight/FCUseCallback';
 import FCUseMemo from './SessionEight/FCUseMemo';
+import FCContext from './SessionNine/FCContext';
+import FCReducer from './SessionNine/FCReducer';
 
 class App extends React.Component {
   constructor(props) {
@@ -51,7 +53,9 @@ class App extends React.Component {
         {/* <FCDebouncing /> */}
         {/* <FCMaterialUi /> */}
         {/* <FCUseCallback /> */}
-        <FCUseMemo />
+        {/* <FCUseMemo /> */}
+        <FCContext />
+        {/* <FCReducer /> */}
       </div>
     );
   }
