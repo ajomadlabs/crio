@@ -18,6 +18,8 @@ import FCUseCallback from './SessionEight/FCUseCallback';
 import FCUseMemo from './SessionEight/FCUseMemo';
 import FCContext from './SessionNine/FCContext';
 import FCReducer from './SessionNine/FCReducer';
+import NormalRedux from './SessionTen/NormalRedux';
+import AsyncRedux from './SessionTen/AsyncRedux';
 
 class App extends React.Component {
   constructor(props) {
@@ -54,8 +56,10 @@ class App extends React.Component {
         {/* <FCMaterialUi /> */}
         {/* <FCUseCallback /> */}
         {/* <FCUseMemo /> */}
-        <FCContext />
+        {/* <FCContext /> */}
         {/* <FCReducer /> */}
+        <NormalRedux />
+        <AsyncRedux />
       </div>
     );
   }
