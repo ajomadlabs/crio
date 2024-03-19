@@ -4,6 +4,10 @@ import CounterFunctionalComponent from './BatchTwo/SessionFour/RCTwo';
 import Albums from './BatchTwo/SessionSix/Albums';
 import Photos from './BatchTwo/SessionSix/Photos';
 import Home from './BatchTwo/SessionSix/Home';
+import HelloDebounce from './BatchTwo/SessionSeven';
+import SearchComponent from './BatchTwo/SessionRef';
+import SearchComponentDebounce from './BatchTwo/SessionSeven';
+import FCMaterialUi from './SessionSeven/FCMaterialUI';
 
 class App extends React.Component {
   constructor(props) {
@@ -20,7 +24,11 @@ class App extends React.Component {
       <div>
         {/* <button onClick={this.handleUpdate}>Show/hide</button>
         {this.state.show && <CounterFunctionalComponent />} */}
-        <Home />
+        {/* <Home /> */}
+        {/* <HelloDebounce /> */}
+        {/* <SearchComponent /> */}
+        {/* <SearchComponentDebounce /> */}
+        <FCMaterialUi />
       </div>
     );
   }
