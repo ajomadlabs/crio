@@ -8,6 +8,8 @@ import HelloDebounce from './BatchTwo/SessionSeven';
 import SearchComponent from './BatchTwo/SessionRef';
 import SearchComponentDebounce from './BatchTwo/SessionSeven';
 import FCMaterialUi from './SessionSeven/FCMaterialUI';
+import ContactBook from './BatchTwo/SessionEight/FCUseCallback';
+import ContactApp from './BatchTwo/ContactApp/ContactApp';
 
 class App extends React.Component {
   constructor(props) {
@@ -28,7 +30,8 @@ class App extends React.Component {
         {/* <HelloDebounce /> */}
         {/* <SearchComponent /> */}
         {/* <SearchComponentDebounce /> */}
-        <FCMaterialUi />
+        {/* <FCMaterialUi /> */}
+        <ContactApp />
       </div>
     );
   }
