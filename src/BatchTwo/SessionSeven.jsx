@@ -21,7 +21,7 @@ const SearchComponentDebounce = () => {
   const handleSearchText = (searchText) => {
     console.log('Searched Text', searchText);
   };
-  const debouncedSearch = useRef(debounce(handleSearchText, 500)).current;
+  const debouncedSearch = useRef(debounce(handleSearchText, 500)).current; 
   useEffect(() => {
     if (search) {
       debouncedSearch(search);
