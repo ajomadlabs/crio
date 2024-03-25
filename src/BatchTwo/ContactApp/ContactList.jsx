@@ -12,9 +12,17 @@ import {
 const ContactList = React.memo(
   ({ contacts, handleSelectContact, contactIndex }) => {
     return (
-      <Box width={'30%'}>
+      <Box
+        width={'20%'}
+        sx={{ borderRight: '1px solid rgba(0, 0, 0, 0.12)', height: '100vh' }}
+      >
         <List
-          sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}
+          sx={{
+            width: '100%',
+            maxWidth: 360,
+            bgcolor: 'background.paper',
+            cursor: 'pointer',
+          }}
         >
           {contacts.map((contact, index) => {
             return (
