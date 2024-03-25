@@ -3,9 +3,12 @@ import ContactDetails from './ContactDetails';
 import ContactList from './ContactList';
 import { HEADER_NAME } from './constants';
 import { useEffect, useState, useCallback } from 'react';
+import { useDispatch } from 'react-redux';
 import { Box, CircularProgress } from '@mui/material';
+import { saveContacts } from './store/actions';
 
 const ContactApp = () => {
+  const dispatch = useDispatch();
   const [contacts, setContacts] = useState([]);
   const [contactIndex, setContactIndex] = useState(0);
   const [loading, setLoading] = useState(false);
@@ -19,6 +22,7 @@ const ContactApp = () => {
         'https://jsonplaceholder.typicode.com/users'
       );
       const data = await response.json();
+      dispatch(saveContacts(data));
       setContacts(data);
       setLoading(false);
     } catch (error) {

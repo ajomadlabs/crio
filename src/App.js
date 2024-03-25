@@ -10,6 +10,7 @@ import SearchComponentDebounce from './BatchTwo/SessionSeven';
 import FCMaterialUi from './SessionSeven/FCMaterialUI';
 import ContactBook from './BatchTwo/SessionEight/FCUseCallback';
 import ContactApp from './BatchTwo/ContactApp/ContactApp';
+import OtherDetails from './BatchTwo/ContactApp/OtherDetails';
 
 class App extends React.Component {
   constructor(props) {
@@ -32,6 +33,7 @@ class App extends React.Component {
         {/* <SearchComponentDebounce /> */}
         {/* <FCMaterialUi /> */}
         <ContactApp />
+        <OtherDetails />
       </div>
     );
   }
